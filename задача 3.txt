@@ -1,0 +1,14 @@
+Дубовик Анна (Я теперь умею пушить!)
+
+
+import random
+N=10000
+X=0 
+for x in range(1,  N):
+    X+=1  
+    while random.randint(False, True): 
+       X+=1                            
+
+print ("Мальчиков - "+str(N))
+print ("Девочек   - "+str(X-N))
+print ("Процент мужского населения       - "+str(N/X))
